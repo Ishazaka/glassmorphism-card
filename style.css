@@ -1,1 +1,22 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;1,200&family=Merienda:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins", sans-serif; 
+}
+body{
+  overflow: hidden;
+}
+section{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom,#f1f4f9, #dff1ff);
+}
+
