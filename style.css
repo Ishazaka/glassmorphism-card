@@ -112,3 +112,30 @@ background: rgba(255,255, 255, 0.2);
  
  
 }
+
+
+.box .square:nth-child(5){
+
+  top:-80px ;
+  left:130px;
+  width: 60px;
+  height: 60px;
+ 
+}
+
+.container{
+ position: relative;
+ width: 400px;
+ min-height: 400px; 
+ background: rgba(255,255, 255, 0.2);
+ border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0,0, 0, 0.2);
+  border: 1px solid rgba(255,255, 255, 0.5);
+ border-bottom: 1px solid rgba(255,255, 255, 0.3);
+  border-right: 1px solid rgba(255,255, 255, 0.3);
+}
+
